@@ -4,8 +4,15 @@
     justify-content: center;
 } */
 
-.model-blok{
-    gap: 30px;
+.modelBlok__0{
+    /* gap:15px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modelBlok{
+    /* gap: 30px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
