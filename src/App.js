@@ -1,11 +1,13 @@
-// Import Css
-import './App.css';
+import React from "react";
+import OneSteps from "./ShamsiddinComponents/OneStepes/OneSteps";
+import PowerRecicle from './ShamsiddinComponents/PoweRicycle/PowerRecycle';
 
 function App() {
   return (
-    <>
-      <h1>App.js</h1>
-    </>
+    <div className="App">
+      <OneSteps />
+      <PowerRecicle />
+    </div>
   );
 }
 
