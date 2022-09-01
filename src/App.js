@@ -8,13 +8,16 @@ import { BrowserRouter } from "react-router-dom";
 import './App.css';
 
 // Import Components
-import Models from './Components/Models/Models'
+// import Models from './Components/Models/Models'
+// import OneSteps from "./Components/ShamsiddinComponents/OneStepes/OneSteps";
+// import PowerRecicle from './Components/ShamsiddinComponents/PoweRicycle/PowerRecycle'
+
 
 
 function App() {
     return (
         <BrowserRouter>
-            <Models />
+            
         </BrowserRouter>
     );
 }
