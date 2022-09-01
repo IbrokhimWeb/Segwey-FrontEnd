@@ -8,13 +8,13 @@ import { BrowserRouter } from "react-router-dom";
 import './App.css';
 
 // Import Components
-import Accessories from './Components/Accessories/Accessories'
+import Models from './Components/Models/Models'
 
 
 function App() {
     return (
         <BrowserRouter>
-            <Accessories />
+            <Models />
         </BrowserRouter>
     );
 }
