@@ -1,3 +1,4 @@
+/* All css */
 * {
     margin: 0;
     padding: 0;
@@ -6,12 +7,14 @@
 html {
     font-size: 100%;
 }
-
+/* Root */
 :root {
     --size-img: 74%;
     --size-text: 3.1rem
 }
 
+
+/* Steps */
 .Steps {
     width : 100%;
     max-width: 1300px;
@@ -23,12 +26,14 @@ html {
     padding-bottom: 4rem;
 }
 
+/* steps Inner */
 .StepInner {
     width: 100%;
     padding: 1rem;
     text-align: center;
 }
 
+/* steps Text */
 .stepsText h1 {
     font-size: var(--size-text);
     text-transform: uppercase;
@@ -41,6 +46,8 @@ html {
     line-height: 21.9px;
 }
 
+
+/* steps Img */
 .stepsImg {
     margin-top: 3rem;
     width: 100%;
@@ -50,7 +57,7 @@ html {
     width: var(--size-img);
 }
 
-
+/* Start Media 856 */
 @media(max-width: 856px){
     .Steps {
         width: 96%;
@@ -62,6 +69,7 @@ html {
     }
 }
 
+/* Start Media 450 */
 @media(max-width: 450px){
     :root {
         --size-img: 100%;
