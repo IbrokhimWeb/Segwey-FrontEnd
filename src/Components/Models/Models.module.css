@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +7,6 @@
 
 .modelsContainer{
     min-height: 100vh;
-    /* background-color: aqua; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,9 +42,10 @@
 }
 
 .fourModels__data{
+    overflow-x: auto ;
     gap: 60px;
     min-height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
