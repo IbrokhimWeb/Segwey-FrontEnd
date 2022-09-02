@@ -1,24 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+:root {
+    --paddings: 4rem;
+    --size-text: 2.7rem;
+    --size-p: .9rem;
+    --bottoms: .8rem;
+    --heightes: 30rem;
+    --size-img: 106%;
+    --text-transform: 34%;
+}
+
+/* PowerRicycle */
 .PowerRicycle {
     width: 100%;
-    padding: 4rem 0;
+    margin: var(--paddings) 0;
+    background: linear-gradient(57deg, #3A75F7 -54%, #12151e 25%);
 }
 
+
+/* PowerInner */
 .PowerReciclesInner {
     width: 100%;
+    max-width: 1300px;
+    height: 100%;
+    margin: 0 auto;
     display: flex;
     align-items: center;
-    background: linear-gradient(57deg, #3A75F7 -54%, #12151e 25%)
+    justify-content: space-between;
+    overflow: hidden;
 }
 
+/* PowerText */
 .PowerText {
-    width: 50%;
-
+    width: 40%;
+    max-width: 30rem;
+    z-index: 10;
+    padding: .8rem;
+    transform: translate(var(--text-transform), -45%);
 }
 
+.PowerText h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: var(--size-text);
+    margin-bottom: var(--bottoms);
+    width: max-content;
+}
+
+.PowerText p {
+    color: #fff;
+    font-size: var(--sized-p);
+}
+
+/* PowerFoto */
 .PowerRecicleFoto {
-    width: 50%;
+    width: 70%;
 }
 
 .PowerRecicleFoto img {
     width: 100%;
+}
+
+
+/* Media max-width 1300px */
+@media(max-width: 1300px){
+    .PowerReciclesInner {
+        width: 96%;
+        margin: 0 auto;
+    }
+
+    :root {
+        --paddings: 1rem;
+        --size-text: 2.4rem;
+        --sized-p: .6rem;
+    }
+}
+
+/* Media max-width 960px */
+@media(max-width: 960px){
+    :root {
+        --size-text: 1.8rem;
+        --sized-p: .5rem;
+    }
+}
+
+/* Media max-width 768px */
+@media(max-width: 768px){
+    :root {
+        --size-text: 1.2rem;
+        --sized-p: .3rem;
+        --text-transform: 8%;
+    }
+}
+
+/* Media max-width 450px */
+@media(max-width: 450px){
+    .PowerReciclesInner {
+        flex-flow: column;
+    }
+
+    .PowerRecicleFoto {
+        width: 100%;
+    }
+
+    .PowerRecicleFoto img {
+        width: 100%;
+    }
+
+    .PowerText {
+        width: 100%;
+        transform: translate(0%, 0%);
+    }
+
+    .PowerText p {
+        max-width: 20rem;
+    }
+
+    :root {
+        --size-text: 1rem;
+        --sized-p: .6rem;
+    }
 }
