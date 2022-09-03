@@ -6,6 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 
 // Import Css
 import './App.css';
+import MainApp from './Components/Accessories/MainApp';
 
 // Import Components
 import Models from './Components/Models/Models'
@@ -17,9 +18,10 @@ import Models from './Components/Models/Models'
 function App() {
     return (
         <BrowserRouter>
-            <Models/>
+            <MainApp/>
         </BrowserRouter>
     );
+
 }
 
 export default App;

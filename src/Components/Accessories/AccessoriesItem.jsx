@@ -1,5 +1,7 @@
+
 // Import React
 import { React } from 'react';
+
 
 export default function AccessoriesItem(props) {
     // destructuring in props
