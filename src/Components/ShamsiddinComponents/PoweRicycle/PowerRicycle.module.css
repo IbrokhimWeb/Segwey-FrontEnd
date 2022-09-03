@@ -1,26 +1,28 @@
+/* All css */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* html css */
 html {
     font-size: 100%;
 }
 
+/* root */
 :root {
     --paddings: 4rem;
     --size-text: 2.7rem;
     --size-p: .9rem;
     --bottoms: .8rem;
     --heightes: 30rem;
-    --size-img: 106%;
     --text-transform: 34%;
 }
 
 /* PowerRicycle */
 .PowerRicycle {
     width: 100%;
-    margin: var(--paddings) 0;
+    margin-bottom: var(--bottoms);
     background: linear-gradient(57deg, #3A75F7 -54%, #12151e 25%);
 }
 

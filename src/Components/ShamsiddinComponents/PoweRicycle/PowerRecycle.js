@@ -1,5 +1,9 @@
 import React from 'react';
+
+// Import CSS style
 import Classes from './PowerRicycle.module.css';
+
+// Import foto for PowerRecycle Component
 import PowerRiciclesFoto from '../images/power-recycle.png';
 
 export default function PowerRecycle() {
@@ -15,7 +19,7 @@ export default function PowerRecycle() {
                     KickScooter MAX into an electric vehicle powered by 
                     electricity and recycled energy from riding. Energy 
                     will be collected from regenerative braking and 
-                    distributed when you need a boost. </p>
+                    distributed when you need a boost. gi</p>
             </div>
             {/* /PowerText */}
             {/* PowerImg */}
