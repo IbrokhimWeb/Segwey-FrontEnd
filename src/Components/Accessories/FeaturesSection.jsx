@@ -1,8 +1,9 @@
 // Import React 
-import React from 'react';
+import { React } from 'react';
 
 // Import Components
 import FeaturesSectionItem from './FeaturesSectionItem'
+
 
 export default function FeaturesSection(props) {
     return (

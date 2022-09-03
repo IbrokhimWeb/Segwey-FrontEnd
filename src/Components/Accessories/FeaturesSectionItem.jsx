@@ -1,6 +1,7 @@
 // import React
 import React from 'react';
 
+
 export default function FeaturesSectionItem(props) {
 
     return (

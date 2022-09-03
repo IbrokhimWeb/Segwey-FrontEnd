@@ -1,3 +1,4 @@
+
 // Importr React and useState
 import { React, useState } from 'react';
 
@@ -11,6 +12,7 @@ import Accessories from './Accessories';
 import FeaturesSection from './FeaturesSection';
 
 function MainApp() {
+
 
     // Object in accessories Data
     const [accessories, setAccessories] = useState(
@@ -61,7 +63,7 @@ function MainApp() {
                 acces_price: 119.99
             }
         ])
-    
+
     // Object In features data
     const [features, setFeatures] = useState([
         { features__title: '10"', features__text: "Pneumatic Tires" },
@@ -73,7 +75,6 @@ function MainApp() {
         { features__title: "6H", features__text: "Fast Charging" },
         { features__title: "551Wh", features__text: "Battery" }
     ])
-
 
     return (
         <>
@@ -91,3 +92,4 @@ function MainApp() {
 }
 
 export default MainApp;
+

@@ -9,6 +9,7 @@ import AccessoriesItem from './AccessoriesItem';
 
 
 export default function Accessories({accessories}) {
+
     return (
         <>
             {/* AccessoriesSection Start */}
@@ -20,7 +21,9 @@ export default function Accessories({accessories}) {
                         </h2>
                         {/* AccessoriesItem mapping  Start */}
                         <ul className="acces__list overflow-auto">
+
                             {accessories.map((item, idx) => (
+
                                 <AccessoriesItem key={idx} item={item} />
                             ))}
                         </ul>
