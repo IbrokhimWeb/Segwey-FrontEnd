@@ -10,12 +10,12 @@ import { GiPathDistance } from 'react-icons/gi'
 
 function Model({ model, index }) {
     // console.log(models);
-    console.log((index%2));
+    // console.log((index%2));
     
     return (
         <>
-            {index === 0 || index === 4 || index === 8 || index === 12 
-                ?
+            {(index % 4) === 0  ?
+
                 <section className={s.modelContainer}>
 
                     <div className={s.modelBlok__0}>
@@ -26,55 +26,81 @@ function Model({ model, index }) {
                         <div className={s.modelTitle}>
                             <MdSpeed/> Max. speed
                         </div>
+
                         <p> {model.maxSpeed} км/ч</p>
+
                         <div className={s.modelTitle}>
                             <GiPathDistance/> Range (miles)
                         </div>
+
                         <p> {model.Range} </p>
+
                         <div className={s.modelTitle}>
                             <MdBatteryCharging30/> Battery Capacity
                         </div>
-                        <p> {model.batteryCapacity} </p>
+
+                        <p> {model.batteryCapacity}</p>
+
                         <div className={s.modelTitle}>
                             <MdSpeed/> Net Weight
                         </div>
-                        <p> {model.netWeight} </p>
+
+                        <p> {model.netWeight}</p>
+
                         <div className={s.modelTitle}>
                             <MdSpeed/> Payload
                         </div>
-                        <p> {model.payload} </p>
+
+                        <p> {model.payload}</p>
+
                         <div className={s.modelTitle}>
                             <MdSpeed/> Chargin Time
                         </div>
-                        <p> {model.charginTime} </p>
+
+                        <p> {model.charginTime}</p>
+
                         <div className={s.modelTitle}>
                             <MdSpeed/> Number of Batteries
                         </div>
-                        <p> {model.nuberOfBatteries} </p>
+
+                        <p> {model.nuberOfBatteries}</p>
+
                         <div className={s.modelTitle}>
                             <MdSpeed/> Motor power
                         </div>
-                        <p> {model.motorPower} </p>
+
+                        <p> {model.motorPower}</p>
+
                         <div className={s.modelTitle}>
                             <MdSpeed/> Power Output
                         </div>
-                        <p> {model.powerOutput} </p>
+                        
+                        <p> {model.powerOutput}</p>
+
                         <div className={s.modelTitle}>
                             <MdSpeed/> Max. Incline
                         </div>
+                        
                         <p> {model.maxIncline} </p>
+                        
                         <div className={s.modelTitle}>
                             <MdSpeed/> Shock Absorption
                         </div>
+                        
                         <p> {model.shockAbsorption} </p>
+                        
                         <div className={s.modelTitle}>
                             <MdSpeed/> Safety
                         </div>
+                        
                         <p> {model.safety} </p>
+                        
                         <div className={s.modelTitle}>
                             <MdSpeed/> Atmosphere Light
                         </div>
+                        
                         <p> {model.atmosphereLight} </p>
+                    
                     </div>
 
                 </section>
