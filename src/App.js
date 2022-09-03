@@ -1,10 +1,11 @@
 // Import Css
 import './App.css';
+import MainApp from './Components/Accessories/MainApp';
 
 function App() {
   return (
     <>
-      <h1>App.js</h1>
+      <MainApp/>
     </>
   );
 }
