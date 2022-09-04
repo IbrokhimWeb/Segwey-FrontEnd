@@ -1,6 +1,10 @@
 // Import React 
 import { React } from 'react';
 
+// Import Img
+
+import features__bg from "../../images/features-bg.png"
+
 // Import Components
 import FeaturesSectionItem from './FeaturesSectionItem'
 
@@ -12,7 +16,7 @@ export default function FeaturesSection(props) {
             <section className="features">
                 {/* Background Image Section Start */}
                 <div className="container-fluit display-flex justify-content-center">
-                    <div className="features__bg"></div>
+                    <img src={features__bg} className="features__bg" />
                 </div>
                 {/* Background Image Section End */}
                 <div className="container">
