@@ -11,15 +11,15 @@ import MainApp from './Components/Accessories/MainApp';
 
 // Import Components
 import Models from './Components/Models/Models'
-// import OneSteps from "./Components/ShamsiddinComponents/OneStepes/OneSteps";
-// import PowerRecicle from './Components/ShamsiddinComponents/PoweRicycle/PowerRecycle'
+import OneSteps from "./Components/ShamsiddinComponents/OneStepes/OneSteps";
+import PowerRecicle from './Components/ShamsiddinComponents/PoweRicycle/PowerRecycle'
 
 
 
 function App() {
     return (
         <BrowserRouter>
-            <MainApp/>
+            <Models/>
         </BrowserRouter>
     );
 
