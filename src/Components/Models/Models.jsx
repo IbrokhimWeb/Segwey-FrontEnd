@@ -35,10 +35,11 @@ function Models(props) {
             maxIncline: 15,
             shockAbsorption: 'none',
             safety: 'Задний LED-фонарь',
-            atmosphereLight: 'none'
+            atmosphereLight: 'none',
+            chena: 99.999
         },
         {
-            id: 2,
+            id: 1,
             img: E22,
             model: 'E22',
             maxSpeed: 20,
@@ -53,10 +54,11 @@ function Models(props) {
             maxIncline: 15,
             shockAbsorption: 'none',
             safety: 'Задний LED-фонарь',
-            atmosphereLight: 'none'
+            atmosphereLight: 'none',
+            chena: 99.999
         },
         {
-            id: 3,
+            id: 1,
             img: E22,
             model: 'E22',
             maxSpeed: 20,
@@ -71,10 +73,11 @@ function Models(props) {
             maxIncline: 15,
             shockAbsorption: 'none',
             safety: 'Задний LED-фонарь',
-            atmosphereLight: 'none'
+            atmosphereLight: 'none',
+            chena: 99.999
         },
         {
-            id: 3,
+            id: 1,
             img: E22,
             model: 'E22',
             maxSpeed: 20,
@@ -89,10 +92,11 @@ function Models(props) {
             maxIncline: 15,
             shockAbsorption: 'none',
             safety: 'Задний LED-фонарь',
-            atmosphereLight: 'none'
+            atmosphereLight: 'none',
+            chena: 99.999
         },
         {
-            id: 2,
+            id: 1,
             img: E22,
             model: 'E22',
             maxSpeed: 20,
@@ -107,10 +111,11 @@ function Models(props) {
             maxIncline: 15,
             shockAbsorption: 'none',
             safety: 'Задний LED-фонарь',
-            atmosphereLight: 'none'
+            atmosphereLight: 'none',
+            chena: 99.999
         },
         {
-            id: 3,
+            id: 1,
             img: E22,
             model: 'E22',
             maxSpeed: 20,
@@ -125,10 +130,11 @@ function Models(props) {
             maxIncline: 15,
             shockAbsorption: 'none',
             safety: 'Задний LED-фонарь',
-            atmosphereLight: 'none'
+            atmosphereLight: 'none',
+            chena: 99.999
         },
         {
-            id: 3,
+            id: 1,
             img: E22,
             model: 'E22',
             maxSpeed: 20,
@@ -143,8 +149,143 @@ function Models(props) {
             maxIncline: 15,
             shockAbsorption: 'none',
             safety: 'Задний LED-фонарь',
-            atmosphereLight: 'none'
-        }
+            atmosphereLight: 'none',
+            chena: 99.999
+        },
+        {
+            id: 1,
+            img: E22,
+            model: 'E22',
+            maxSpeed: 20,
+            Range: 22,
+            batteryCapacity: 5100,
+            netWeight: 13.5,
+            payload: [25, 100],
+            charginTime: 3.5,
+            nuberOfBatteries: '1 встроенная',
+            motorPower: 300,
+            powerOutput: 71,
+            maxIncline: 15,
+            shockAbsorption: 'none',
+            safety: 'Задний LED-фонарь',
+            atmosphereLight: 'none',
+            chena: 99.999
+        },
+        {
+            id: 1,
+            img: E22,
+            model: 'E22',
+            maxSpeed: 20,
+            Range: 22,
+            batteryCapacity: 5100,
+            netWeight: 13.5,
+            payload: [25, 100],
+            charginTime: 3.5,
+            nuberOfBatteries: '1 встроенная',
+            motorPower: 300,
+            powerOutput: 71,
+            maxIncline: 15,
+            shockAbsorption: 'none',
+            safety: 'Задний LED-фонарь',
+            atmosphereLight: 'none',
+            chena: 99.999
+        },
+        {
+            id: 1,
+            img: E22,
+            model: 'E22',
+            maxSpeed: 20,
+            Range: 22,
+            batteryCapacity: 5100,
+            netWeight: 13.5,
+            payload: [25, 100],
+            charginTime: 3.5,
+            nuberOfBatteries: '1 встроенная',
+            motorPower: 300,
+            powerOutput: 71,
+            maxIncline: 15,
+            shockAbsorption: 'none',
+            safety: 'Задний LED-фонарь',
+            atmosphereLight: 'none',
+            chena: 99.999
+        },
+        {
+            id: 1,
+            img: E22,
+            model: 'E22',
+            maxSpeed: 20,
+            Range: 22,
+            batteryCapacity: 5100,
+            netWeight: 13.5,
+            payload: [25, 100],
+            charginTime: 3.5,
+            nuberOfBatteries: '1 встроенная',
+            motorPower: 300,
+            powerOutput: 71,
+            maxIncline: 15,
+            shockAbsorption: 'none',
+            safety: 'Задний LED-фонарь',
+            atmosphereLight: 'none',
+            chena: 99.999
+        },
+        {
+            id: 1,
+            img: E22,
+            model: 'E22',
+            maxSpeed: 20,
+            Range: 22,
+            batteryCapacity: 5100,
+            netWeight: 13.5,
+            payload: [25, 100],
+            charginTime: 3.5,
+            nuberOfBatteries: '1 встроенная',
+            motorPower: 300,
+            powerOutput: 71,
+            maxIncline: 15,
+            shockAbsorption: 'none',
+            safety: 'Задний LED-фонарь',
+            atmosphereLight: 'none',
+            chena: 99.999
+        },
+        {
+            id: 1,
+            img: E22,
+            model: 'E22',
+            maxSpeed: 20,
+            Range: 22,
+            batteryCapacity: 5100,
+            netWeight: 13.5,
+            payload: [25, 100],
+            charginTime: 3.5,
+            nuberOfBatteries: '1 встроенная',
+            motorPower: 300,
+            powerOutput: 71,
+            maxIncline: 15,
+            shockAbsorption: 'none',
+            safety: 'Задний LED-фонарь',
+            atmosphereLight: 'none',
+            chena: 99.999
+        },
+         {
+            id: 1,
+            img: E22,
+            model: 'E22',
+            maxSpeed: 20,
+            Range: 22,
+            batteryCapacity: 5100,
+            netWeight: 13.5,
+            payload: [25, 100],
+            charginTime: 3.5,
+            nuberOfBatteries: '1 встроенная',
+            motorPower: 300,
+            powerOutput: 71,
+            maxIncline: 15,
+            shockAbsorption: 'none',
+            safety: 'Задний LED-фонарь',
+            atmosphereLight: 'none',
+            chena: 99.999
+        },
+        
     ]);
 
 
@@ -163,12 +304,7 @@ function Models(props) {
                             <StickyModel />
                         </div>
 
-                        {
-                            models.map((m, i) => {
-                                return <Model model={m} index={i} />
-                            })
-                        }
-
+                        {models.map((m, i) => <Model model={m} index={i} />)}
                     </div>
                 </div>
 

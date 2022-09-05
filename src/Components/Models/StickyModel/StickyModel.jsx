@@ -1,5 +1,9 @@
-import React from 'react';
-import s from './StickyModel.css';
+
+// Import React
+import { React } from 'react';
+
+// Import Css
+import s from './StickyModel.module.css';
 
 
 // Import Icons
@@ -9,46 +13,46 @@ import { GiPathDistance } from 'react-icons/gi'
 function StickyModel(props) {
     return (
         <>
-            <section >
+            <section className={s.container} >
                 <div >
-                    <MdSpeed /> Max. speed
-                </div>
+                    <MdSpeed className={s.icons} /> Max. speed  
+                </div> <hr />
                 <div >
-                    <GiPathDistance /> Range (miles)
-                </div>
+                    <GiPathDistance className={s.icons} /> Range (miles)
+                </div> <hr />
                 <div >
-                    <MdBatteryCharging30 /> Battery Capacity
-                </div>
+                    <MdBatteryCharging30 className={s.icons} /> Battery Capacity
+                </div> <hr />
                 <div >
-                    <MdSpeed /> Net Weight
-                </div>
+                    <MdSpeed className={s.icons} /> Net Weight
+                </div> <hr />
                 <div >
-                    <MdSpeed /> Payload
-                </div>
+                    <MdSpeed className={s.icons} /> Payload
+                </div> <hr />
                 <div >
-                    <MdSpeed /> Chargin Time
-                </div>
+                    <MdSpeed className={s.icons} /> Chargin Time
+                </div> <hr />
                 <div >
-                    <MdSpeed /> Number of Batteries
-                </div>
+                    <MdSpeed className={s.icons} /> Number of Batteries
+                </div> <hr />
                 <div >
-                    <MdSpeed /> Motor power
-                </div>
+                    <MdSpeed className={s.icons} /> Motor power
+                </div> <hr />
                 <div>
-                    <MdSpeed /> Power Output
-                </div>
+                    <MdSpeed className={s.icons} /> Power Output
+                </div> <hr />
                 <div>
-                    <MdSpeed /> Max. Incline
-                </div>
+                    <MdSpeed className={s.icons} /> Max. Incline
+                </div> <hr />
                 <div>
-                    <MdSpeed /> Shock Absorption
-                </div>
+                    <MdSpeed className={s.icons} /> Shock Absorption
+                </div> <hr />
                 <div>
-                    <MdSpeed /> Safety
-                </div>
+                    <MdSpeed className={s.icons} /> Safety
+                </div> <hr />
                 <div>
-                    <MdSpeed /> Atmosphere Light
-                </div>
+                    <MdSpeed className={s.icons} /> Atmosphere Light
+                </div> <hr />
             </section>
         </>
     );

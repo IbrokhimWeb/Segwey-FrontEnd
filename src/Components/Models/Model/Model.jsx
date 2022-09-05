@@ -11,33 +11,31 @@ function Model({ model, index }) {
     // console.log((index%2));
     
     return (
-        <>
-           
-
+        <> 
                 <section className={s.modelContainer}>
 
                     <div className={s.modelBlok}>
                         <img src={model.img} />
                         <h1> NININEBOT<br />KICKSCOOTER {model.model} </h1>
 
-                        <p> {model.maxSpeed} км/ч</p>
-                        <p> {model.Range} </p>
-                        <p> {model.batteryCapacity} </p>
-                        <p> {model.netWeight} </p>
-                        <p> {model.payload} </p>
-                        <p> {model.charginTime} </p>
-                        <p> {model.nuberOfBatteries} </p>
-                        <p> {model.motorPower} </p>
-                        <p> {model.powerOutput} </p>
-                        <p> {model.maxIncline} </p>
-                        <p> {model.shockAbsorption} </p>
-                        <p> {model.safety} </p>
-                        <p> {model.atmosphereLight} </p>
+                        <p> {model.maxSpeed} км/ч</p> <hr />
+                        <p> {model.Range} </p> <hr />
+                        <p> {model.batteryCapacity} </p> <hr />
+                        <p> {model.netWeight} </p> <hr />
+                        <p> {model.payload} </p> <hr />
+                        <p> {model.charginTime} </p> <hr />
+                        <p> {model.nuberOfBatteries} </p> <hr />
+                        <p> {model.motorPower} </p> <hr />
+                        <p> {model.powerOutput} </p> <hr />
+                        <p> {model.maxIncline} </p> <hr />
+                        <p> {model.shockAbsorption} </p> <hr />
+                        <p> {model.safety} </p> <hr />
+                        <p> {model.atmosphereLight} </p> <hr />
+                        <p> {model.chena} </p> 
+                        <button>Qwerty</button>
                     </div>
 
                 </section>
-            
-
         </>
     );
 }
