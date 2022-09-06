@@ -1,6 +1,6 @@
 
 // Import React
-import { React } from 'react'
+import { React, useEffect, useState } from 'react'
 
 // Import React-Router-Dom
 import { BrowserRouter } from "react-router-dom";
@@ -17,9 +17,35 @@ import PowerRecicle from './Components/ShamsiddinComponents/PoweRicycle/PowerRec
 
 
 function App() {
+    const [loader, setLoader] = useState(false);
+
+    useEffect(() => {
+        setLoader(true)
+        setTimeout(() => {
+            setLoader(false)
+        }, 5000)
+    }, [])
     return (
         <BrowserRouter>
-            <Models/>
+
+            {
+                loader ?
+                    (
+                        <div className="loader_content">
+                            <div className="" role="main" >
+                                <div className="loader loader-6"></div>
+                            </div>
+                        </div>
+                    ) : (
+                        <>
+                            <div className="tamirda">
+                                <h1>Repairs are currently underway</h1>
+                            </div>
+                        </>
+                    )
+            }
+
+
         </BrowserRouter>
     );
 
