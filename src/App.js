@@ -9,8 +9,22 @@ import { BrowserRouter } from "react-router-dom";
 import './App.css';
 
 // Import Components
-import Accessories from './Components/Accessories/Accessories';
-import AccessoriesItem from './Components/Accessories/AccessoriesItem';
+import Header from './Components/ShamsiddinComponents/Segway/Header/Header';
+import Logotip from './Components/ShamsiddinComponents/Segway/LogoTip/Logotip';
+import CoruselSlider from './Components/ShamsiddinComponents/Segway/CoruselSlider/CoruselSlider';
+import BlueLine from './Components/ShamsiddinComponents/Segway/BlueLine/BlueLine';
+import ScooterInfo from './Components/ShamsiddinComponents/Segway/ScooterInfo/ScooterInfo';
+import Report from './Components/ShamsiddinComponents/Segway/Report/Report';
+
+import Accessories from './Components/Accessories/MainApp'
+
+import OneStep from './Components/ShamsiddinComponents/OneStepes/OneSteps';
+import PowerRicycle from './Components/ShamsiddinComponents/PoweRicycle/PowerRecycle';
+import FirstCharging from './Components/ShamsiddinComponents/FirstCharging/FirstCharging';
+import RidingModes from './Components/ShamsiddinComponents/RidingModes/RidingModes';
+
+import Models from './Components/Models/Models'
+
 
 
 
@@ -21,12 +35,12 @@ function App() {
         setLoader(true)
         setTimeout(() => {
             setLoader(false)
-        }, 5000)
+        }, 1000)
     }, [])
     return (
-        <>
+        <BrowserRouter>
 
-            {/* {
+            {
                 loader ?
                     (
                         <div className="loader_content">
@@ -35,18 +49,38 @@ function App() {
                             </div>
                         </div>
                     ) : (
+
                         <>
-                            <div className="tamirda">
-                                <h1>Repairs are currently underway</h1>
-                            </div>
+                            <Header />
+                            <Logotip />
+                            <CoruselSlider />
+                            <BlueLine />
+                            <ScooterInfo />
+                            <Report/>
+
+                            <Accessories/>
+
+                            <OneStep/>
+                            <PowerRicycle/>
+                            <FirstCharging/>
+                            <RidingModes/>
+
+                            {/* <Models/> */}
+
+                            
                         </>
+                        // <>
+                        //     <div className="tamirda">
+                        //         <h1>Repairs are currently underway</h1>
+                        //     </div>
+                        // </>
                     )
-            } */}
-            <Accessories/>
+            }
+            
 
 
 
-        </>
+        </BrowserRouter>
         // BrowserRouter
     );
 
