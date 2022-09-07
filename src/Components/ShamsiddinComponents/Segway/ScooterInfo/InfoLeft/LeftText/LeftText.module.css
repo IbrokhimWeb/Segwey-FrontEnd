@@ -1,0 +1,34 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --size-infoleft-h1: 90px;
+}
+
+button {
+    border: 2px solid #6ACD68;
+    color: #6ACD68;
+    padding: 5px 20px;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: var(--size-infoleft-h1);
+    font-weight: 700;
+    line-height: 87%;
+    margin-top: 20px;
+    color: #323941;
+    max-width: 80px;
+}
+
+@media(max-width: 1000px){
+    :root {
+        --size-infoleft-h1: 60px;
+    }
+}

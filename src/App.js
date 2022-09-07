@@ -15,13 +15,15 @@ import Models from './Components/Models/Models'
 // import PowerRecicle from './Components/ShamsiddinComponents/PoweRicycle/PowerRecycle';
 // import FirstCharging from './Components/ShamsiddinComponents/FirstCharging/FirstCharging';
 // import RidingModes from './Components/ShamsiddinComponents/RidingModes/RidingModes';
+import Segway from './Components/ShamsiddinComponents/Segway/Segway';
 
 
 
 function App() {
     return (
         <BrowserRouter>
-            <MainApp/>
+            {/* <MainApp/> */}
+            <Segway/>
         </BrowserRouter>
     );
 
