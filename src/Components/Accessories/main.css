@@ -27,6 +27,7 @@ html {
  */
 body {
   margin: 0;
+  background-color: #f6f6f6;
 }
 
 /**
@@ -747,14 +748,19 @@ body {
   }
 }
 
+.features{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .features__bg {
-  width: 100%;
   /* because it is not working well */
   /* max-width: 1376px; */
-  height: 1250px;
-  background-image: url("../../images/features-bg.png");
+  height: 800px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .features__box {
