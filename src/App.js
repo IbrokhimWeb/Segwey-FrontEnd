@@ -23,6 +23,9 @@ import PowerRicycle from './Components/ShamsiddinComponents/PoweRicycle/PowerRec
 import FirstCharging from './Components/ShamsiddinComponents/FirstCharging/FirstCharging';
 import RidingModes from './Components/ShamsiddinComponents/RidingModes/RidingModes';
 
+import { SegwayProtective } from './Components/SegwayProtective/SegwayProtective';
+
+
 import Models from './Components/Models/Models'
 
 
@@ -64,6 +67,8 @@ function App() {
                             <PowerRicycle/>
                             <FirstCharging/>
                             <RidingModes/>
+
+                            <SegwayProtective/>
 
                             {/* <Models/> */}
 
