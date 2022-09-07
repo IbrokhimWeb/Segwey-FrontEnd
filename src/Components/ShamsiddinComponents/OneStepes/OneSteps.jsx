@@ -1,5 +1,9 @@
 import { React } from 'react';
+
+// Import CSS style
 import s from './OnseSteps.module.css';
+
+// Import foto for OneSteps Component
 import StepsFoto from '../images/one-steps.png';
 
 function OneSteps() {
@@ -12,7 +16,7 @@ function OneSteps() {
                     {/* stepsText section */}
                     <div className={s.stepsText}>
                         <h1>one-step folding mechanism</h1>
-                        <p>Ninebot KickScooter MAX can be easily folded and carried around in 3 seconds</p>
+                        <p>Ninebot KickScooter MAX can be easily folded and carried around in 3 seconds.</p>
                     </div>
                     {/* /stepsText section */}
                     {/* stepsImg section */}

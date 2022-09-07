@@ -9,8 +9,13 @@ html {
 }
 /* Root */
 :root {
-    --size-img: 74%;
-    --size-text: 3.1rem
+    --size-img: 60%;
+    --size-text: 3.4rem;
+    --size-p: 1.26rem;
+    --size-bottom: 1.4rem;
+    --paddings: 4rem;
+    --lineHeight: 59.6px;
+    --paddingInner: 1rem;
 }
 
 
@@ -22,14 +27,14 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: var(--paddings);
+    padding-bottom: var(--paddings);
 }
 
 /* steps Inner */
 .StepInner {
     width: 100%;
-    padding: 1rem;
+    padding: var(--paddingInner);
     text-align: center;
 }
 
@@ -37,13 +42,12 @@ html {
 .stepsText h1 {
     font-size: var(--size-text);
     text-transform: uppercase;
-    line-height: 59.6px;
+    line-height: var(--lineHeight);
+    margin-bottom: var(--size-bottom);
 }
 
 .stepsText p {
-    font-size: 1rem;
-    font-size: 21px;
-    line-height: 21.9px;
+    font-size: var(--size-p);
 }
 
 
@@ -66,12 +70,20 @@ html {
     :root {
         --size-img: 90%;
         --size-text: 2.1rem;
+        --size-p: .9rem;
+        --size-bottom: .2rem;
+        --padding: 1rem;
+        --lineHeight: 26.6px;
+        --paddingInner: .2rem;
     }
 }
 
 /* Start Media 450 */
-@media(max-width: 450px){
+@media(max-width: 598px){
     :root {
         --size-img: 100%;
+        --size-text: 1rem;
+        --size-p: .8rem;
+        --paddings: 1rem;
     }
 }
