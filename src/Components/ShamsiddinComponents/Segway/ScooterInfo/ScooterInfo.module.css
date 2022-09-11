@@ -154,6 +154,7 @@ html {
 
 .Pays {
     width: 90%;
+    margin: 0 auto;
 }
 
 .Pays p {
@@ -179,31 +180,17 @@ html {
     justify-content: space-between;
 }
 
-.InfoRight {
+.rightBottom {
     width: 40%;
-}
-
-.InfoRight img {
-    width: 100%;
-}
-
-.InfoButtons {
-    width: 100%;
     display: flex;
+    flex-flow: column;
     align-items: center;
     justify-content: center;
 }
 
-.InfoButtons button {
-    width: 14px;
-    height: 14px;
-    background: #999;
-    outline: none;
-    border: none;
-    margin: 0 .4rem;
-    border-radius: 50px;
+.rightTop {
+    display: none;
 }
-
 
 @media(max-width: 1440px){
     html {
@@ -320,6 +307,23 @@ html {
         line-height: 94%;
         padding: 0 20px;
         margin-top: 12px;
+    }
+
+    .InfoLeftInner {
+        width: 100%;
+    }
+
+    .rightBottom {
+        display: none;
+    }
+
+    .rightTop {
+        display: inline;
+    }
+
+    .Pays {
+        width: 96%;
+        margin: 0 auto;
     }
 
     :root {

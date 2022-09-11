@@ -2,9 +2,7 @@ import React from 'react';
 import '../../../../index.css';
 import s from './ScooterInfo.module.css';
 import InfoTextFoto from '../segway/ScooterInfo/Слой 0 2.png';
-import InfoFoto from '../segway/ScooterInfo/Right-1.png';
-
-import LeftText from './InfoLeft/LeftText/LeftText';
+import ScooterInfoRight from './ScooterInfoRigth/ScooterInfoRight';
 
 export default function ScooterInfo() {
 
@@ -32,9 +30,12 @@ export default function ScooterInfo() {
     <div className='Container'>
         <div className={s.ScooterInfoInner}>
             <div className={s.InfoLeft}>
-                {/* <LeftText /> */}
                 <button>In stock</button>
                 <h1>segway ninebot kickscooter max</h1>
+
+                <div className={s.rightTop}> 
+                    <ScooterInfoRight />
+                </div>
 
                 <div className={s.InfoLeftInner}>
                     <h4>Add an extended warranty from <span>Extend</span></h4>
@@ -51,9 +52,9 @@ export default function ScooterInfo() {
                         <h3>
                             Segwat Protective Gear Setas a gift
                         </h3>
-                        <dvi className={s.InfoLeftImg}>
+                        <div className={s.InfoLeftImg}>
                             <img src={InfoTextFoto} />
-                        </dvi>
+                        </div>
                     </div>
                     <div className={s.InfoLeftInnerButtons}>
                         <button>by now</button>
@@ -73,17 +74,8 @@ export default function ScooterInfo() {
                 </div>
             </div>
 
-            <div className={s.InfoRight}>
-                <img src={InfoFoto} />
-                <div className={s.InfoButtons}>
-                    <button></button>
-                    <button></button>
-                    <button></button>
-                    <button></button>
-                    <button></button>
-                    <button></button>
-                    <button></button>
-                </div>
+            <div className={s.rightBottom}>
+                <ScooterInfoRight />
             </div>
 
         </div>        

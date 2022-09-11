@@ -12,7 +12,7 @@
 
 .RidingModesStyle {
     width: 100%;
-    background: radial-gradient(13% 49% at 62% 76%, #002370 -90%, #12151e 145%);
+    background: radial-gradient(13% 49% at 62% 76%, #002370 -90%, #12151e 145%); 
     margin-bottom: var(--padding-riding);
 }
 

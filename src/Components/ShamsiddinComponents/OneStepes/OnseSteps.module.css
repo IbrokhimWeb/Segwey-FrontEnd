@@ -9,7 +9,7 @@ html {
 }
 /* Root */
 :root {
-    --size-img: 60%;
+    --size-img: 60%; 
     --size-text: 3.4rem;
     --size-p: 1.26rem;
     --size-bottom: 1.4rem;
@@ -55,6 +55,9 @@ html {
 .stepsImg {
     margin-top: 3rem;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .stepsImg img {

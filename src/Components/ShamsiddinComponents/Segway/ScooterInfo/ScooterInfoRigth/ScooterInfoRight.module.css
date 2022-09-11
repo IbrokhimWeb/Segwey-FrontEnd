@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.InfoRight {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1.6rem 0;
+    position: relative;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 32%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    height: 100%;
+    background: transparent;
+    width: 8rem;
+    height: 8rem;
+    transform: scale(.4, .5);
+    cursor: pointer;
+    z-index: 100;
+}
+
+.prev {
+    left: 0px;
+}
+
+.next {
+    right: 0px;
+}
+
+.prev span,
+.next span {
+    padding: 2rem;
+    width: 2rem;
+    height: 2rem;
+    border: solid #009eff;
+    background: transparent;
+    transform: rotate(45deg);
+    pointer-events: none;
+}
+
+.prev span {
+    border-width: 0 0 7px 7px;
+}
+
+.next span {
+    border-width: 7px 7px 0 0;
+}
+
+.InfoRight img {
+    width: 100%;
+}
+
+.InfoButtons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.InfoButtons button {
+    width: 14px;
+    height: 14px;
+    background: #999;
+    outline: none;
+    border: none;
+    margin: 0 .4rem;
+    border-radius: 50px;
+}
+
+
+@media(max-width: 660px){
+    .InfoRight {
+        height: 30rem;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .InfoRight img  {
+        width: 18rem;
+    }
+
+    .prev,
+    .next {
+        display: flex;
+    }
+}
+
+@media(max-width: 450px){
+    .InfoRight {
+        height: 18rem;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .InfoRight img  {
+        width: 11rem;
+    }
+
+    .prev,
+    .next {
+        top: 16%;
+    }
+}

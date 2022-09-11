@@ -21,7 +21,7 @@ export default function ReportBox({foto, title1, title2, index, active}) {
         >
         <img src={foto} />
         <div className={s.ReportBoxTitle}>
-            <p style={{color: active ? '#fff' : ''}} >{title1}</p>
+            <p style={{color: active ? '#fff' : ''}} >{title1}</p> 
             <p style={{color: active ? '#fff' : ''}} >{title2}</p>
         </div>
     </div>

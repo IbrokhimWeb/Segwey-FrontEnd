@@ -14,7 +14,7 @@ export default function Segway() {
         <CoruselSlider />
         <BlueLine />
         <ScooterInfo />
-        {/* <Report /> */}
+        <Report />
     </div>
   )
 }

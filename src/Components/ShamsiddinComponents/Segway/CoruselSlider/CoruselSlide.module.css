@@ -66,7 +66,7 @@
 
 @media(max-width: 1024px){
     .prev, .next {
-        top: 8%;
+        top: 0%;
     }
 
     .prev {
@@ -80,6 +80,20 @@
 
 @media(max-width: 768px){
     .prev, .next {
-        top: 10%;
+        top: 2%;
+    }
+}
+
+@media(max-width: 450px){
+    .prev, .next {
+        transform: scale(.3, .4);
+    }
+
+    .prev {
+        left: -42px;
+    }
+
+    .next {
+        right: -42px;
     }
 }

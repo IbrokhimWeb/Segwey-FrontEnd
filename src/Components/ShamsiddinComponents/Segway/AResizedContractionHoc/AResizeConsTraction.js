@@ -22,7 +22,7 @@ export default function AResizeConsTraction(responsive) {
         setBoxWidth(boxes => boxes = boxesWidth); 
     }
 
-    target = useCallback((elems) => {
+    target = useCallback((elems) => { 
         if(elems){
             observ.current = new ResizeObserver(resizeSLider).observe(elems);
         }
