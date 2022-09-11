@@ -28,7 +28,7 @@ export default function Accessories({accessories}) {
                             ))}
                         </ul>
                         {/* AccessoriesItem mapping end */}
-                        <Link to="/" class="acces__link">
+                        <Link to="/" className="acces__link">
                             SEE MORE
                         </Link>
                     </div>
