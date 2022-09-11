@@ -1,0 +1,38 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+.SliderBox {
+    height: 130px;
+    padding: .6rem;
+    display: flex;
+    flex-flow: column;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    /* border: solid 1px #ccc; */
+}
+
+.SliderBox img {
+    height: 80px;
+    margin-bottom: .5rem;
+}
+
+.SliderBox h3 {
+    color: #84888d;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+@media(max-width: 560px){
+    .SliderBox img {
+        height: 70px;
+    }
+
+    .SliderBox h3 {
+        font-size: 10px;
+    }
+}

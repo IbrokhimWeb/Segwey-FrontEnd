@@ -1,0 +1,41 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+.ReportBox {
+    width: 25%;
+    padding: .6rem 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: solid 1px #ccc;
+    transition: .3s ease;
+}
+
+.ReportBox:hover {
+    background: #009eff;
+}
+
+.ReportBox:hover .ReportBoxTitle p {
+    color: #fff;
+}
+
+.ReportBox img {
+    height: 3.2rem;
+    margin-right: 1.6rem;
+    pointer-events: none;
+}
+
+.ReportBox .ReportBoxTitle {
+    display: flex;
+    flex-flow: column;
+}
+
+.ReportBox .ReportBoxTitle p {
+    font-size: 1.5rem;
+    color: #9f9f9f;
+    transition: .3s ease;
+    pointer-events: none;
+}
