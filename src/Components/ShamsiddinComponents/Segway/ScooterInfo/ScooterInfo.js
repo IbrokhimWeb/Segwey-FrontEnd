@@ -54,6 +54,7 @@ export default function ScooterInfo() {
                         <div className={s.InfoLeftImg}>
                             <img src={InfoTextFoto} />
                         </div>
+
                     </div>
                     <div className={s.InfoLeftInnerButtons}>
                         <button>by now</button>
