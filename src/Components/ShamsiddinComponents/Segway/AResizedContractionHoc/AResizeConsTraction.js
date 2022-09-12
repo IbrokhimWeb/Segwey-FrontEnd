@@ -17,7 +17,7 @@ export default function AResizeConsTraction(responsive) {
             }
         });
 
-        let containerWidth = container.current.offsetWidth;
+        let containerWidth = container.current?.offsetWidth;
         let boxesWidth = Math.floor(containerWidth / itemx);
         setBoxWidth(boxes => boxes = boxesWidth); 
     }
