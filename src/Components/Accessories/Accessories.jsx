@@ -20,7 +20,7 @@ export default function Accessories({accessories}) {
                             Accessories
                         </h2>
                         {/* AccessoriesItem mapping  Start */}
-                        <ul className="acces__list overflow-auto">
+                        <ul className="acces__list">
 
                             {accessories.map((item, idx) => (
 

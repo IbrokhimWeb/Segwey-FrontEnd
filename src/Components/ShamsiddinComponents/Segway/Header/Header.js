@@ -1,17 +1,21 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../Style.css';
 import s from './Header.module.css';
 import Logo from '../segway/segway2.png';
 
 export default function Header() {
+    const [activeMenu, setActiveMenu] = useState(false);
+
   return (
     <div className={s.Headers}>
         <div className='Container'>
             <div className={s.HeaderInner}>
-                <div className={s.BurgerMenu}>
+                <div onClick={() => setActiveMenu(actives => actives = !actives)} className={s.BurgerMenu}>
                     <i className='bx bx-menu' ></i>
                 </div>
-                <div className={s.Navbor}>
+                <div style={{
+                    top: activeMenu ? '86px' : '-100%'
+                }} className={s.Navbor}>
                     <a href="#">REVIEWS</a>
                     <a href="#">SHIPPING AND PAYMENT</a>
                     <a href="#">WHOLESALE</a>

@@ -12,7 +12,7 @@ html {
 /* root */
 :root {
     --paddings: 4rem;
-    --size-text: 2.7rem;
+    --size-text: 2.7rem; 
     --size-p: .9rem;
     --bottoms: .8rem;
     --heightes: 30rem;
@@ -62,14 +62,17 @@ html {
 }
 
 /* PowerFoto */
-.PowerRecicleFoto {
+.PowerRecicleFotoBottom {
     width: 70%;
 }
 
-.PowerRecicleFoto img {
+.PowerRecicleFotoBottom img {
     width: 100%;
 }
 
+.PowerRecicleFotoTop {
+    display: none;
+}
 
 /* Media max-width 1300px */
 @media(max-width: 1300px){
@@ -108,12 +111,19 @@ html {
         flex-flow: column;
     }
 
-    .PowerRecicleFoto {
+    .PowerRecicleFotoTop {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 100%;
     }
 
-    .PowerRecicleFoto img {
-        width: 100%;
+    .PowerRecicleFotoTop img {
+        width: 84%;
+    }
+
+    .PowerRecicleFotoBottom {
+        display: none;
     }
 
     .PowerText {

@@ -31,7 +31,6 @@ import Models from './Components/Models/Models'
 
 
 
-
 function App() {
     const [loader, setLoader] = useState(false);
 
@@ -43,6 +42,7 @@ function App() {
     }, [])
     return (
         <BrowserRouter>
+
 
             {
                 loader ?
@@ -83,6 +83,7 @@ function App() {
                     )
             }
             
+
 
 
 

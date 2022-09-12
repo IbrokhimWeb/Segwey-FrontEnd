@@ -36,7 +36,7 @@ export default function CoruselSlider() {
                 id='prev'
                 className={s.prev}>
                     <span></span>
-            </button>
+            </button> 
                 <div 
                     style={{
                         transform: `translateX(${count * -boxWidth}px)`,

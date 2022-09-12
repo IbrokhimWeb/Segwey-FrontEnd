@@ -5,6 +5,9 @@
 
 :root {
     --margin-size: 4rem;
+    --size-report-body-img: 18rem;
+    --size-report-body-title-h1: 2.4rem;
+    --size-report-body-title-p: 1.6rem;
 }
 
 .ReportInner {
@@ -12,11 +15,15 @@
     margin: var(--margin-size) 0;
 }
 
-.ReportBoxes {
+.ReportBoxesTop {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.ReportBoxesBottom {
+    display: none;
 }
 
 .ReportBody {
@@ -35,15 +42,76 @@
 
 .ReportBodyTitl h1 {
     text-transform: uppercase;
-    font-size: 2.4rem;
+    font-size: var(--size-report-body-title-h1);
     margin: .4rem 0;
 }
 
 .ReportBodyTitl p {
-    font-size: 1.6rem;
+    font-size: var(--size-report-body-title-p);
     max-width: 96%;
 }
 
+.reportBodyFotoTop {
+    display: none;
+}
+
+.reportBodyFotoBottom {
+    display: inline;
+}
+
 .ReportBody img {
-    height: 18rem;
+    height: var(--size-report-body-img);
+}
+
+
+@media(max-width: 1100px){
+    :root {
+        --size-report-body-img: 14rem;
+    }
+}
+
+@media(max-width: 860px){
+    :root {
+        --size-report-body-img: 11rem;
+        --size-report-body-title-h1: 1.8rem;
+        --size-report-body-title-p: 1.2rem;
+    }
+}
+
+@media(max-width: 660px){
+    .ReportBoxesTop {
+        display: none;
+    }
+
+    .ReportBoxesBottom {
+        display: flex;
+    }
+
+    :root {
+        --size-report-body-img: 11rem;
+        --size-report-body-title-h1: 1.4rem;
+        --size-report-body-title-p: .8rem;
+    }
+}   
+
+@media(max-width: 500px){
+    .ReportBody {
+        flex-flow: column;
+        padding: .6rem;
+    }
+
+    .reportBodyFotoTop {
+        display: inline;
+    }
+
+    .reportBodyFotoBottom {
+        display: none;
+    }
+
+    .ReportBodyTitl {
+        max-width: 100%;
+        padding-left: 0;
+        text-align: center;
+        margin: 1.6rem 0;
+    }
 }

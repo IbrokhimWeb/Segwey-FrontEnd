@@ -20,7 +20,7 @@ export default function RidingModes() {
                     </h1>
                     <p>
                         Eco, Standard, and Sports modes can 
-                        be directly accessed by the intuitive 
+                        be directly accessed by the intuitive  
                         LED dashboard, which also displays 
                         maintenance signals, power levels, 
                         Bluetooth connectivity and more.

@@ -3,7 +3,7 @@ import { React } from 'react';
 // Import CSS style
 import s from './OnseSteps.module.css';
 
-// Import foto for OneSteps Component
+// Import foto for OneSteps Component 
 import StepsFoto from '../images/one-steps.png';
 
 function OneSteps() {

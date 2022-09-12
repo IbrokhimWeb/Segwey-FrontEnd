@@ -6,7 +6,7 @@ import ChargingFoto from '../images/fast-charging.png';
 // Import CSS style
 import s from './FirstCharging.module.css';
 
-export default function FirstCharging() {
+export default function FirstCharging() { 
   return (
     // FirstChanrging start
     <div className={s.FirstChangingStyle}>

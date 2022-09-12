@@ -89,19 +89,27 @@ export default function Report() {
     }}>
         <div className='Container'>
             <div className={s.ReportInner}>
-                <div className={s.ReportBoxes}>
+                <div className={s.ReportBoxesTop}>
                     {state.map((keys, index) => <ReportBox
                                                             index={index}
                                                             key={index} 
                                                             {...keys} />)}
                 </div>
                 <div className={s.ReportBody}>
+                    <img className={s.reportBodyFotoTop} src={reportBody[reportBodyCheck].foto} /> 
                     <div className={s.ReportBodyTitl}>
                         <h1>{reportBody[reportBodyCheck].textOneH1}</h1>
                         <h1>{reportBody[reportBodyCheck].textTwoH1}</h1>
                         <p>{reportBody[reportBodyCheck].textP}</p>
                     </div>
-                    <img src={reportBody[reportBodyCheck].foto} />
+                    <img className={s.reportBodyFotoBottom} src={reportBody[reportBodyCheck].foto} /> 
+                </div>
+
+                <div className={s.ReportBoxesBottom}>
+                    {state.map((keys, index) => <ReportBox
+                                                            index={index}
+                                                            key={index} 
+                                                            {...keys} />)}
                 </div>
             </div>
         </div>

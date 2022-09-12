@@ -12,6 +12,13 @@ export default function PowerRecycle() {
     <div className={Classes.PowerRicycle}>
         {/* PowerRicycleInner */}
         <div className={Classes.PowerReciclesInner}>
+
+            {/* PowerImgBottom */}
+            <div className={Classes.PowerRecicleFotoTop}>
+                <img src={PowerRiciclesFoto} />
+            </div>
+            {/* /PowerImgBottom */}
+
             {/* PowerText */}
             <div className={Classes.PowerText}>
                 <h1>regenerative brake for <br /> power recycle</h1>
@@ -22,11 +29,13 @@ export default function PowerRecycle() {
                     distributed when you need a boost. gi</p>
             </div>
             {/* /PowerText */}
-            {/* PowerImg */}
-            <div className={Classes.PowerRecicleFoto}>
+
+            {/* PowerImgBottom */}
+            <div className={Classes.PowerRecicleFotoBottom}>
                 <img src={PowerRiciclesFoto} />
             </div>
-            {/* /PowerImg */}
+            {/* /PowerImgBottom */}
+
         </div>
         {/* /PowerRicycleInner */}
     </div>
